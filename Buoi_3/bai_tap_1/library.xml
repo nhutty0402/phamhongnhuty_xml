@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="library.xsd">
+    <book id="B001">
+        <title> Lập trình C# </title>
+        <author> Huỳnh Văn Chương </author>
+        <year> 2022 </year>
+        <genre> Công nghệ thông tin</genre>
+    </book>
+    <book id="B002">
+        <title> quản trị kinh doanh </title>
+        <author> Trần Thị Lan</author>
+        <year> 2010 </year>
+        <genre> Kinh tế </genre>
+    </book>
+</library>
