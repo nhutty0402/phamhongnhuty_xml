@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANAN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://example.com/quanan"
+        xsi:noNamespaceSchemaLocation="quanan.xsd">
+
+    <BAN>
+        <B IDBAN="B01" TENBAN="Bàn 1" SOBAN="1"/>
+        <B IDBAN="B02" TENBAN="Bàn 2" SOBAN="2"/>
+        <B IDBAN="B03" TENBAN="Bàn 3" SOBAN="3"/>
+        <B IDBAN="B04" TENBAN="Bàn 4" SOBAN="4"/>
+        <B IDBAN="B05" TENBAN="Bàn 5" SOBAN="5"/>
+    </BAN>
+
+    <NHANVIEN>
+        <NV MANV="NV01" TENNV="Nguyen Van A" SDT="0901111111"
+            DIACHI="HCM" GIOITINH="Nam"
+            USERNAME="nguyenvana" PASSWORD="matkhau123"/>
+        <NV MANV="NV02" TENNV="Tran Thi B" SDT="0902222222"
+            DIACHI="HN" GIOITINH="Nu"
+            USERNAME="tranb" PASSWORD="pass123456"/>
+        <NV MANV="NV03" TENNV="Le Van C" SDT="0903333333"
+            DIACHI="Hue" GIOITINH="Nam"
+            USERNAME="levanc" PASSWORD="1234567890"/>
+        <NV MANV="NV04" TENNV="Pham Thi D" SDT="0904444444"
+            DIACHI="DN" GIOITINH="Nu"
+            USERNAME="phamd" PASSWORD="abcd123456"/>
+        <NV MANV="NV05" TENNV="Do Van E" SDT="0905555555"
+            DIACHI="CT" GIOITINH="Nam"
+            USERNAME="dovane" PASSWORD="123456789a"/>
+    </NHANVIEN>
+
+    <MON>
+        <M MAMON="M01" TENMON="Cơm chiên" GIA="45000" HINHANH="comchien.jpg"/>
+        <M MAMON="M02" TENMON="Phở bò" GIA="40000" HINHANH="phobo.jpg"/>
+        <M MAMON="M03" TENMON="Bún thịt nướng" GIA="35000" HINHANH="bunthitnuong.jpg"/>
+        <M MAMON="M04" TENMON="Hủ tiếu" GIA="30000" HINHANH="hutieu.jpg"/>
+        <M MAMON="M05" TENMON="Cà phê" GIA="25000" HINHANH="caphe.jpg"/>
+    </MON>
+
+    <HOADON>
+        <HD SOHD="HD01" NGAYLAP="2025-10-05" TONGTIEN="80000"
+            THANHTOAN="B01" LAP_HD="NV01"/>
+        <HD SOHD="HD02" NGAYLAP="2025-10-05" TONGTIEN="70000"
+            THANHTOAN="B02" LAP_HD="NV02"/>
+        <HD SOHD="HD03" NGAYLAP="2025-10-06" TONGTIEN="120000"
+            THANHTOAN="B03" LAP_HD="NV03"/>
+        <HD SOHD="HD04" NGAYLAP="2025-10-07" TONGTIEN="60000"
+            THANHTOAN="B04" LAP_HD="NV04"/>
+        <HD SOHD="HD05" NGAYLAP="2025-10-07" TONGTIEN="90000"
+            THANHTOAN="B05" LAP_HD="NV05"/>
+    </HOADON>
+
+    <CTHD>
+        <CT SOHD="HD01" MAMON="M01" SOLUONG="2"/>
+        <CT SOHD="HD01" MAMON="M05" SOLUONG="1"/>
+        <CT SOHD="HD02" MAMON="M02" SOLUONG="2"/>
+        <CT SOHD="HD03" MAMON="M03" SOLUONG="3"/>
+        <CT SOHD="HD04" MAMON="M04" SOLUONG="2"/>
+    </CTHD>
+
+</QUANAN>

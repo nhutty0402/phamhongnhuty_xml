@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://example.com/quanan"
+           xmlns="http://example.com/quanan"
+           elementFormDefault="qualified">
+
+    <!-- Kiểu dữ liệu cho Username và Password -->
+    <xs:simpleType name="usernameType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="6"/>
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="passwordType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="10"/>
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Cấu trúc chính -->
+    <xs:element name="QUANAN">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="BAN">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="B" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="IDBAN" type="xs:string" use="required"/>
+                                    <xs:attribute name="TENBAN" type="xs:string" use="required"/>
+                                    <xs:attribute name="SOBAN" type="xs:integer" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="NHANVIEN">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="NV" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="MANV" type="xs:string" use="required"/>
+                                    <xs:attribute name="TENNV" type="xs:string" use="required"/>
+                                    <xs:attribute name="SDT" type="xs:string" use="required"/>
+                                    <xs:attribute name="DIACHI" type="xs:string"/>
+                                    <xs:attribute name="GIOITINH" type="xs:string"/>
+                                    <xs:attribute name="USERNAME" type="usernameType" use="required"/>
+                                    <xs:attribute name="PASSWORD" type="passwordType" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="MON">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="M" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="MAMON" type="xs:string" use="required"/>
+                                    <xs:attribute name="TENMON" type="xs:string" use="required"/>
+                                    <xs:attribute name="GIA" type="xs:float" use="required"/>
+                                    <xs:attribute name="HINHANH" type="xs:string"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="HOADON">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="HD" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="SOHD" type="xs:string" use="required"/>
+                                    <xs:attribute name="NGAYLAP" type="xs:date" use="required"/>
+                                    <xs:attribute name="TONGTIEN" type="xs:float" use="required"/>
+                                    <xs:attribute name="THANHTOAN" type="xs:string" use="required"/>
+                                    <xs:attribute name="LAP_HD" type="xs:string" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="CTHD">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="CT" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:attribute name="SOHD" type="xs:string" use="required"/>
+                                    <xs:attribute name="MAMON" type="xs:string" use="required"/>
+                                    <xs:attribute name="SOLUONG" type="xs:integer" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

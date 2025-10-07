@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANAN xmlns="http://example.com/quanan"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://example.com/quanan quanan.xsd">
+
+    <!-- DANH SÁCH BÀN -->
+    <BAN MABAN="B01">
+        <TENBAN>Bàn 1</TENBAN>
+        <SOBAN>4</SOBAN>
+    </BAN>
+    <BAN MABAN="B02">
+        <TENBAN>Bàn 2</TENBAN>
+        <SOBAN>6</SOBAN>
+    </BAN>
+    <BAN MABAN="B03">
+        <TENBAN>Bàn 3</TENBAN>
+        <SOBAN>8</SOBAN>
+    </BAN>
+    <BAN MABAN="B04">
+        <TENBAN>Bàn 4</TENBAN>
+        <SOBAN>4</SOBAN>
+    </BAN>
+    <BAN MABAN="B05">
+        <TENBAN>Bàn 5</TENBAN>
+        <SOBAN>2</SOBAN>
+    </BAN>
+
+    <!-- DANH SÁCH MÓN -->
+    <MON MAMON="M01">
+        <TENMON>Bún bò Huế</TENMON>
+        <GIA>45000</GIA>
+        <HINHANH>bunbo.jpg</HINHANH>
+    </MON>
+    <MON MAMON="M02">
+        <TENMON>Phở bò</TENMON>
+        <GIA>40000</GIA>
+        <HINHANH>pho.jpg</HINHANH>
+    </MON>
+    <MON MAMON="M03">
+        <TENMON>Bánh canh cua</TENMON>
+        <GIA>50000</GIA>
+        <HINHANH>banhcanh.jpg</HINHANH>
+    </MON>
+    <MON MAMON="M04">
+        <TENMON>Bánh xèo</TENMON>
+        <GIA>30000</GIA>
+        <HINHANH>banhxeo.jpg</HINHANH>
+    </MON>
+    <MON MAMON="M05">
+        <TENMON>Hủ tiếu</TENMON>
+        <GIA>35000</GIA>
+        <HINHANH>hutieu.jpg</HINHANH>
+    </MON>
+
+    <!-- DANH SÁCH NHÂN VIÊN -->
+    <NHANVIEN MANV="NV01">
+        <TENNV>Nguyễn Văn An</TENNV>
+        <SDT>0912345678</SDT>
+        <DIACHI>Cần Thơ</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>nguyenvanan</USERNAME>
+        <PASSWORD>password12345</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN MANV="NV02">
+        <TENNV>Trần Thị Hoa</TENNV>
+        <SDT>0987654321</SDT>
+        <DIACHI>Hậu Giang</DIACHI>
+        <GIOITINH>Nữ</GIOITINH>
+        <USERNAME>tranthihoa</USERNAME>
+        <PASSWORD>hoatrang1234</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN MANV="NV03">
+        <TENNV>Lê Hoàng</TENNV>
+        <SDT>0909001122</SDT>
+        <DIACHI>Vĩnh Long</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>lehoang123</USERNAME>
+        <PASSWORD>lehoangpassword</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN MANV="NV04">
+        <TENNV>Phạm Thị Mai</TENNV>
+        <SDT>0933334444</SDT>
+        <DIACHI>TP.HCM</DIACHI>
+        <GIOITINH>Nữ</GIOITINH>
+        <USERNAME>maimai</USERNAME>
+        <PASSWORD>password56789</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN MANV="NV05">
+        <TENNV>Đỗ Thanh Tùng</TENNV>
+        <SDT>0977123456</SDT>
+        <DIACHI>Long An</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>thanh123</USERNAME>
+        <PASSWORD>thanhpassword</PASSWORD>
+    </NHANVIEN>
+
+    <!-- DANH SÁCH HÓA ĐƠN -->
+    <HOADON SOHD="HD01">
+        <NGAYLAP>2025-10-01</NGAYLAP>
+        <TONGTIEN>145000</TONGTIEN>
+        <MABAN_REF>B01</MABAN_REF>
+        <MANV_REF>NV01</MANV_REF>
+        <MAMON_REF>M01</MAMON_REF>
+    </HOADON>
+    <HOADON SOHD="HD02">
+        <NGAYLAP>2025-10-02</NGAYLAP>
+        <TONGTIEN>50000</TONGTIEN>
+        <MABAN_REF>B02</MABAN_REF>
+        <MANV_REF>NV02</MANV_REF>
+        <MAMON_REF>M02</MAMON_REF>
+    </HOADON>
+    <HOADON SOHD="HD03">
+        <NGAYLAP>2025-10-03</NGAYLAP>
+        <TONGTIEN>30000</TONGTIEN>
+        <MABAN_REF>B03</MABAN_REF>
+        <MANV_REF>NV03</MANV_REF>
+        <MAMON_REF>M04</MAMON_REF>
+    </HOADON>
+    <HOADON SOHD="HD04">
+        <NGAYLAP>2025-10-04</NGAYLAP>
+        <TONGTIEN>35000</TONGTIEN>
+        <MABAN_REF>B04</MABAN_REF>
+        <MANV_REF>NV04</MANV_REF>
+        <MAMON_REF>M05</MAMON_REF>
+    </HOADON>
+    <HOADON SOHD="HD05">
+        <NGAYLAP>2025-10-05</NGAYLAP>
+        <TONGTIEN>50000</TONGTIEN>
+        <MABAN_REF>B05</MABAN_REF>
+        <MANV_REF>NV05</MANV_REF>
+        <MAMON_REF>M03</MAMON_REF>
+    </HOADON>
+
+</QUANAN>

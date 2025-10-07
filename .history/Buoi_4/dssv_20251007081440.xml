@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="dssv.xsd">
+
+  <DANHSACHKHOA>
+    <KHOA>
+      <MA>CNTT</MA>
+      <TEN>congnghethongtin</TEN>
+    </KHOA>
+    <KHOA>
+      <MA>KT</MA>
+      <TEN>kinhte</TEN>
+    </KHOA>
+  </DANHSACHKHOA>
+
+  <DANHSACHLOP>
+    <LOP>
+      <MA>DI22V7A1</MA>
+      <TEN>Kỹ thuật phần mềm 1 Khóa 22</TEN>
+      <MAKHOA>CNTT</MAKHOA>
+    </LOP>
+    <LOP>
+      <MA>KT22T1A1</MA>
+      <TEN>Kế toán 1 Khóa 22</TEN>
+      <MAKHOA>KT</MAKHOA>
+    </LOP>
+  </DANHSACHLOP>
+
+  <DANHSACHSINHVIEN>
+    <SINHVIEN>
+      <MSSV>B2200001</MSSV>
+      <HOTEN>Nguyễn Văn An</HOTEN>
+      <EMAIL>annvB2200001@student.ctu.edu.vn</EMAIL>
+      <DIACHI>Cần Thơ</DIACHI>
+      <SDT>0912345678</SDT>
+      <MALOP>DI22V7A1</MALOP>
+    </SINHVIEN>
+    <SINHVIEN>
+      <MSSV>B2200003</MSSV>
+      <HOTEN>Lê Hoàng Cung</HOTEN>
+      <EMAIL>cunglhB2200003@student.ctu.edu.vn</EMAIL>
+      <DIACHI>An Giang</DIACHI>
+      <SDT>0345678901</SDT>
+      <MALOP>KT22T1A1</MALOP>
+    </SINHVIEN>
+  </DANHSACHSINHVIEN>
+
+</DSSV>

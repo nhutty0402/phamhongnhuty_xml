@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quanan:QUANAN xmlns:quanan="http://www.quanlyquanan.com/schema"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.quanlyquanan.com/schema quanan.xsd">
+
+  <quanan:DANHSACHMON>
+    <quanan:MON>
+      <quanan:MAMON>MON01</quanan:MAMON>
+      <quanan:TENMON>Phở Bò Tái</quanan:TENMON>
+      <quanan:GIA>50000</quanan:GIA>
+      <quanan:HINHANH>phobo.jpg</quanan:HINHANH>
+    </quanan:MON>
+    <quanan:MON>
+      <quanan:MAMON>MON02</quanan:MAMON>
+      <quanan:TENMON>Bún Chả Hà Nội</quanan:TENMON>
+      <quanan:GIA>45000</quanan:GIA>
+      <quanan:HINHANH>buncha.jpg</quanan:HINHANH>
+    </quanan:MON>
+    <quanan:MON>
+      <quanan:MAMON>MON03</quanan:MAMON>
+      <quanan:TENMON>Cơm Tấm Sườn Bì Chả</quanan:TENMON>
+      <quanan:GIA>55000</quanan:GIA>
+      <quanan:HINHANH>comtam.jpg</quanan:HINHANH>
+    </quanan:MON>
+  </quanan:DANHSACHMON>
+
+  <quanan:DANHSACHBAN>
+    <quanan:BAN>
+      <quanan:SOBAN>1</quanan:SOBAN>
+      <quanan:TENBAN>Bàn 1</quanan:TENBAN>
+    </quanan:BAN>
+    <quanan:BAN>
+      <quanan:SOBAN>2</quanan:SOBAN>
+      <quanan:TENBAN>Bàn 2</quanan:TENBAN>
+    </quanan:BAN>
+    <quanan:BAN>
+      <quanan:SOBAN>3</quanan:SOBAN>
+      <quanan:TENBAN>Bàn 3</quanan:TENBAN>
+    </quanan:BAN>
+  </quanan:DANHSACHBAN>
+
+  <quanan:DANHSACHNHANVIEN>
+    <quanan:NHANVIEN>
+      <quanan:MANV>NV001</quanan:MANV>
+      <quanan:TENNV>Lê Thị An</quanan:TENNV>
+      <quanan:SDT>0987654321</quanan:SDT>
+      <quanan:DIACHI>123 Cần Thơ</quanan:DIACHI>
+      <quanan:GIOITINH>Nữ</quanan:GIOITINH>
+      <quanan:USERNAME>lethian</quanan:USERNAME>
+      <quanan:PASSWORD>password12345</quanan:PASSWORD>
+    </quanan:NHANVIEN>
+    <quanan:NHANVIEN>
+      <quanan:MANV>NV002</quanan:MANV>
+      <quanan:TENNV>Trần Văn Bình</quanan:TENNV>
+      <quanan:SDT>0912345678</quanan:SDT>
+      <quanan:DIACHI>456 An Giang</quanan:DIACHI>
+      <quanan:GIOITINH>Nam</quanan:GIOITINH>
+      <quanan:USERNAME>tranvanbinh</quanan:USERNAME>
+      <quanan:PASSWORD>password67890</quanan:PASSWORD>
+    </quanan:NHANVIEN>
+  </quanan:DANHSACHNHANVIEN>
+
+  <quanan:DANHSACHHOADON>
+    <quanan:HOADON>
+      <quanan:SOHD>1001</quanan:SOHD>
+      <quanan:NGAYLAP>2025-10-07</quanan:NGAYLAP>
+      <quanan:TONGTIEN>145000</quanan:TONGTIEN>
+      <quanan:SOBAN>2</quanan:SOBAN>
+      <quanan:MANV>NV001</quanan:MANV>
+      <quanan:DANHSACHCHITIET>
+        <quanan:CHITIET>
+          <quanan:MAMON>MON01</quanan:MAMON>
+          <quanan:SOLUONG>1</quanan:SOLUONG>
+        </quanan:CHITIET>
+        <quanan:CHITIET>
+          <quanan:MAMON>MON02</quanan:MAMON>
+          <quanan:SOLUONG>2</quanan:SOLUONG>
+        </quanan:CHITIET>
+        <quanan:CHITIET>
+          <quanan:MAMON>MON03</quanan:MAMON>
+          <quanan:SOLUONG>1</quanan:SOLUONG>
+        </quanan:CHITIET>
+      </quanan:DANHSACHCHITIET>
+    </quanan:HOADON>
+    <quanan:HOADON>
+<quanan:SOHD>1002</quanan:SOHD>
+      <quanan:NGAYLAP>2025-10-07</quanan:NGAYLAP>
+      <quanan:TONGTIEN>95000</quanan:TONGTIEN>
+      <quanan:SOBAN>5</quanan:SOBAN>
+      <quanan:MANV>NV002</quanan:MANV>
+      <quanan:DANHSACHCHITIET>
+        <quanan:CHITIET>
+          <quanan:MAMON>MON01</quanan:MAMON>
+          <quanan:SOLUONG>1</quanan:SOLUONG>
+        </quanan:CHITIET>
+        <quanan:CHITIET>
+          <quanan:MAMON>MON03</quanan:MAMON>
+          <quanan:SOLUONG>1</quanan:SOLUONG>
+        </quanan:CHITIET>
+      </quanan:DANHSACHCHITIET>
+    </quanan:HOADON>
+  </quanan:DANHSACHHOADON>
+</quanan:QUANAN>
