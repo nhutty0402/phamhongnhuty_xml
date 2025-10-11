@@ -1,0 +1,9 @@
+from lxml import etree
+
+# Đọc file XML
+tree = etree.parse("sinhvien.xml")
+root = tree.getroot()
+
+# Truy vấn XPath
+names = root.xpath("/school/student/name/text()")
+print(names)
