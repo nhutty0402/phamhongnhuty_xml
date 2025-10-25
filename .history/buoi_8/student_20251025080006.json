@@ -1,0 +1,12 @@
+$schema": "./student-schema.json
+{
+    
+  "fullName": "Nguyễn Văn A",
+  "age": 20,
+  "gender": "nam",
+  "averageScore": 8.5,
+  "address": {
+    "city": "Hà Nội",
+    "country": "Việt Nam"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "tenSanPham": "Laptop Pro 16",
+    "giaTien": 45000000,
+    "soLuongTonKho": 150,
+    "danhMuc": "Điện tử"
+  },
+  {
+    "tenSanPham": "Bàn phím cơ X",
+    "giaTien": 2100000,
+    "soLuongTonKho": 300,
+    "danhMuc": "Phụ kiện máy tính"
+  },
+  {
+    "tenSanPham": "Điện thoại S25",
+    "giaTien": 29990000,
+    "soLuongTonKho": 220,
+    "danhMuc": "Điện tử"
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "fullName": {
+      "type": "string",
+      "description": "Họ và tên đầy đủ của sinh viên",
+      "minLength": 1
+    },
+    "age": {
+      "type": "integer",
+      "description": "Tuổi của sinh viên",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "gender": {
+      "type": "string",
+      "description": "Giới tính (nam hoặc nữ)",
+      "enum": ["nam", "nữ"]
+    },
+    "averageScore": {
+      "type": "number",
+      "description": "Điểm trung bình (từ 0 đến 10)",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "city": {
+          "type": "string",
+          "description": "Thành phố",
+          "minLength": 1
+        },
+        "country": {
+          "type": "string",
+          "description": "Quốc gia",
+          "minLength": 1
+        }
+      },
+      "required": ["city", "country"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["fullName", "age", "gender", "averageScore", "address"],
+  "additionalProperties": false
+}

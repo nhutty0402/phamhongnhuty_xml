@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dữ Liệu Thời Tiết",
+  "description": "Thông tin thời tiết hiện tại của một thành phố",
+  "type": "object",
+  "properties": {
+    "tenThanhPho": {
+      "description": "Tên của thành phố",
+      "type": "string"
+    },
+    "quocGia": {
+      "description": "Tên quốc gia của thành phố đó",
+      "type": "string"
+    },
+    "nhietDoHienTai": {
+      "description": "Nhiệt độ hiện tại (tính bằng độ C)",
+      "type": "number"
+    },
+    "doAm": {
+      "description": "Độ ẩm tương đối (tính bằng %)",
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "tocDoGio": {
+      "description": "Tốc độ gió (tính bằng km/h)",
+      "type": "number",
+      "minimum": 0.0
+    },
+    "moTaThoiTiet": {
+      "description": "Mô tả ngắn gọn về tình hình thời tiết",
+      "type": "string"
+    }
+  },
+  "required": ["tenThanhPho", "quocGia", "nhietDoHienTai", "moTaThoiTiet"]
+}

@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Danh Sách Sản Phẩm",
+  "description": "Một mảng chứa danh sách các sản phẩm",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "description": "Thông tin chi tiết của một sản phẩm",
+    "properties": {
+      "tenSanPham": {
+        "description": "Tên gọi chính thức của sản phẩm",
+        "type": "string"
+      },
+      "giaTien": {
+        "description": "Giá bán của sản phẩm (tính bằng đơn vị tiền tệ cơ sở, ví dụ: VND)",
+        "type": "integer",
+        "minimum": 0
+      },
+      "soLuongTonKho": {
+        "description": "Số lượng sản phẩm hiện có trong kho",
+        "type": "integer",
+        "minimum": 0
+      },
+      "danhMuc": {
+        "description": "Phân loại danh mục của sản phẩm",
+        "type": "string"
+      }
+    },
+    "required": ["tenSanPham", "giaTien", "soLuongTonKho", "danhMuc"]
+  }
+}{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Danh Sách Sản Phẩm",
+  "description": "Một mảng chứa danh sách các sản phẩm",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "description": "Thông tin chi tiết của một sản phẩm",
+    "properties": {
+      "tenSanPham": {
+        "description": "Tên gọi chính thức của sản phẩm",
+        "type": "string"
+      },
+      "giaTien": {
+        "description": "Giá bán của sản phẩm (tính bằng đơn vị tiền tệ cơ sở, ví dụ: VND)",
+        "type": "integer",
+        "minimum": 0
+      },
+      "soLuongTonKho": {
+        "description": "Số lượng sản phẩm hiện có trong kho",
+        "type": "integer",
+        "minimum": 0
+      },
+      "danhMuc": {
+        "description": "Phân loại danh mục của sản phẩm",
+        "type": "string"
+      }
+    },
+    "required": ["tenSanPham", "giaTien", "soLuongTonKho", "danhMuc"]
+  }
+}

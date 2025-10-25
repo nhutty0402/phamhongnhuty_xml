@@ -1,0 +1,23 @@
+[
+  {
+    "id": 101,
+    "hoTen": "Trần Thị Bé",
+    "chucVu": "Trưởng phòng Kinh doanh",
+    "mucLuong": 55000000,
+    "trangThaiLamViec": "Đang làm"
+  },
+  {
+    "id": 102,
+    "hoTen": "Lê Văn Cường",
+    "chucVu": "Lập trình viên Backend",
+    "mucLuong": 38000000,
+    "trangThaiLamViec": "Đang làm"
+  },
+  {
+    "id": 103,
+    "hoTen": "Phạm Văn Đức",
+    "chucVu": "Nhân viên Thiết kế",
+    "mucLuong": 22000000,
+    "trangThaiLamViec": "Nghỉ việc"
+  }
+]

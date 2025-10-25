@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Danh Sách Nhân Viên",
+  "description": "Một mảng chứa thông tin các nhân viên trong công ty",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "description": "Thông tin chi tiết của một nhân viên",
+    "properties": {
+      "id": {
+        "description": "Mã số định danh duy nhất của nhân viên",
+        "type": "integer",
+        "minimum": 1
+      },
+      "hoTen": {
+        "description": "Họ và tên đầy đủ của nhân viên",
+        "type": "string"
+      },
+      "chucVu": {
+        "description": "Vị trí công việc của nhân viên",
+        "type": "string"
+      },
+      "mucLuong": {
+        "description": "Mức lương hàng tháng của nhân viên (VND)",
+        "type": "integer",
+        "minimum": 0
+      },
+      "trangThaiLamViec": {
+        "description": "Tình trạng công việc hiện tại của nhân viên",
+        "type": "string",
+        "enum": ["Đang làm", "Nghỉ việc"]
+      }
+    },
+    "required": ["id", "hoTen", "chucVu", "mucLuong", "trangThaiLamViec"]
+  }
+}
